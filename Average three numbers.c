@@ -6,7 +6,7 @@ int main()
   printf("Enter a,b,c");
   scanf("%d%d%d",&a,&b,&c);
   sum=a+b+c;
-  ave=sum/3;
+  ave=sum/3.0;
   printf("%f",ave);
   return 0;
 }
