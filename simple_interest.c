@@ -5,7 +5,7 @@ int main()
  float si;
  printf("enter p,r,t");
  scanf("%d%d%d",&p,&r,&t);
- si=(p*r*t)/100;
+ si=(p*r*t)/100.0;
  printf("%d",si);
  return 0;
 }
