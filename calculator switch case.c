@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main()
 {
-  int ch,a,b;
+  int a,b;
+  char ch;
   printf("enter ch");
-  scanf("%d",&ch);
+  scanf("%c",&ch);
   printf("enter a,b");
   scanf("%d%d",&a,&b);
   switch(ch)
@@ -12,22 +13,27 @@ int main()
      {
        printf("%d",a+b);
      }
+      break;
      case '-':
      {
        printf("%d",a-b);
      }
-     case '*'
+      break;
+    case '*':
      {
        printf("%d",a*b);
      }
+      break;
      case '/':
      {
        printf("%d",a/b);
      }
+      break;
      default:
      {
        printf("no pesent");
      }
+      break;
    }
      return 0;
 }
