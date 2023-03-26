@@ -14,7 +14,14 @@ scanf("%d",&value);
 for(i=0;i<n;i++)
 {
 if(a[i]==value)
+{
 printf("position=%d",i+1);
+}
+ else
+{ 
+    printf("value is not in array");
+   break;
+}
 }
 return 0;
 }
